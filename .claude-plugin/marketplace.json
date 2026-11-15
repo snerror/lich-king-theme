@@ -1,0 +1,5 @@
+{
+  "name": "lich-king-theme",
+  "owner": { "name": "snerror" },
+  "plugins": [{ "name": "lich-king", "source": "./" }]
+}
