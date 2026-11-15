@@ -29,7 +29,7 @@ The theme appears in the next session you start. It's made for dark mode, so swi
 
 ## Your own scene
 
-Put an SVG at `local/scene.svg` in the mod's folder and the mod draws it instead of the spire, from the next session on. The `local/` folder is ignored by git, so a picture you can't share stays on your machine. The file must start with `<svg` and be at most 131,072 characters; anything else falls back to the spire. The scene runs no script, so animate it with CSS in its own `<style>`.
+When you load the mod from a clone of this repo (with `--plugin-dir` or `CLAUDE_CODE_PLUGIN_DIRS`), put an SVG at `local/scene.svg` in the clone and the mod draws it instead of the spire, from the next session on. The `local/` folder is ignored by git, so a picture you can't share stays on your machine. A marketplace install keeps the mod in a folder per version that an update replaces, so the slot is for clones. The file must start with `<svg` and be at most 131,072 characters; anything else falls back to the spire. The scene runs no script, so animate it with CSS in its own `<style>`.
 
 ## What's inside
 
